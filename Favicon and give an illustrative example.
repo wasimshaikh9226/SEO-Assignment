@@ -1,0 +1,31 @@
+A favicon, short for "favorite icon," is a small, iconic image that represents a website and is typically displayed in the browser's address bar, next to the website's name in bookmarks, and in browser tabs. Favicons serve as a visual identifier for a website and contribute to brand recognition.
+
+Illustrative Example:
+
+Suppose you have a website for an online bookstore called "BookWorms." You want to create a favicon to represent your bookstore. The favicon is a small square image, often in the dimensions of 16x16 pixels or 32x32 pixels.
+
+Let's say you create a simple favicon for BookWorms that features an open book icon:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookWorms - Your Online Bookstore</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- You can also use the following line for different sizes -->
+    <!-- <link rel="icon" href="favicon.png" sizes="any" type="image/png"> -->
+
+    <!-- Other Meta Tags, Stylesheets, or Scripts can be added here -->
+</head>
+
+<body>
+    <!-- Your website content goes here -->
+
+    <!-- Scripts or other body elements can be added here -->
+</body>
+
+</html>
